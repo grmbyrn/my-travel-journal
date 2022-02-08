@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    background: #F55A5A;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14.46px;
+    line-height: 17.5px;
+}
+
+.fa-globe-europe{
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 150px 326px;
+    margin: 45px 40px;
+}
+
+.item-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.info-wrapper{
+    margin-left: 75px;
+    width: 350px;
+}
+
+.info-wrapper > * {
+    margin-bottom: 10px;
+}
+
+.location-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.fa-map-marker-alt{
+    margin-right: 5px;
+    color: red;
+}
+
+.country,
+.location-link{
+    line-height: 12.39px;
+}
+
+.country{
+    margin-right: 20px;
+    letter-spacing: 17%;
+}
+
+.location-link{
+    color: #918E9B;
+}
+
+.location-title,
+.travel-dates{
+    font-weight: 700;
+}
+
+.location-title{
+    size: 25px;
+    line-height: 30.46px;
+    color: #2B283A;
+}
+
+.travel-dates{
+    line-height: 12.39px;
+    color: #2B283A;
+    margin-bottom: 9px;
+}
+
+.travel-desc{
+    line-height: 15.36px;
+    color: #2B283A;
+}
